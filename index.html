@@ -1,0 +1,64 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <link rel="icon" href="data:image/png;base64,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" type="image/icon type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=X4eigXN5B5aLDzxhuJM2O826zPtVPxFvZQGmfwAsZm9FsRU5t-CjgGbi66Dzfm8825bZtTgPD9EuAvk2obnGbOpFeJkixDIxNOi0UgIt1CE" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9wcmF0aGFtMzQwLmdpdGh1Yi5pby9PYmplY3QtRmluZGVyLVBhcnQyL2luZGV4Lmh0bWw"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <!-- Start of LiveChat (www.livechatinc.com) code -->
+<script>
+  window.__lc = window.__lc || {};
+  window.__lc.license = 12743817;
+  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechatinc.com/chat-with/12743817/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+</head>
+
+<body background="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882">
+<center>
+  <h1 class="btn btn-info heading">AI Object Finder Part-1
+    <br>
+    <span class="btn-danger">Please Note: That You Have To Enter The Name Which Matches With The Cocossd Model If Entered Wrong Name Then It Wouldn't Detect.</span>
+  </h1>
+  <h3 class="color_white" style="color: white; font-family:'Monoton', cursive;" id="user_name"></h3>
+  <br><br>
+  
+  <div class="form-group" style="width: 30%;">
+    <label style="color:white">Object Name :</label>
+    <input class="form-control" type="text" id="object_name" placeholder="Type The Object Name Here"/>
+    <br>
+    <button onclick="start()" class="btn btn-success">Start</button>
+  </div>
+
+  <h3 id="status" class="btn btn-danger"></h3>
+  <h3 id="object_status" class="btn btn-warning"></h3>
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+</center>
+<div class="copy_right_footer">
+  Developed By Kirtika Chauhan
+</div>
+<script>
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
+<script src="main.js"></script>
+
+</body>
+
+</html>
